@@ -1,3 +1,4 @@
+@import './_fonts.css';
 @import './_variables.css';
 
 :root {
@@ -76,10 +77,12 @@
 
   /* Typrography */
 
-  --fjd-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  --fs-font-primary: 'Open Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-  --fjd-font-family-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo,
-    Courier, monospace;
+  --fs-font-display: 'Bariol', 'Open Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+
+
+
 
   --fjd-font-size-xxs: 0.625rem;
   --fjd-font-size-xs: 0.75rem;

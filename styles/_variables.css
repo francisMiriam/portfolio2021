@@ -1,5 +1,12 @@
 :root {
   /* Base Color Scales */
+  --fs-color-font-dark: #3D3C35;
+  --fs-color-font-light: #F2F2F2;
+  --fs-color-knaller-beige: #F0EAC7;
+  --fs-color-light-knaller-rose: #F0C7C7;
+  --fs-color-green-gray: #9BA9AF;
+  --fs-color-warm-gray: #777983;
+  --fs-color-superlight-gray: #E1E2E3;
 
   --fjd-color-n0: #fff;
   --fjd-color-n100: #fafafb;
