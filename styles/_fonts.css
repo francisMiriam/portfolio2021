@@ -1,0 +1,31 @@
+/* bariol regular */
+
+@font-face {
+  font-family: "Bariol";
+  src: url("./../assets/fonts/bariol_regular-webfont.eot");
+  src: url("./../assets/fonts/bariol_regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("./../assets/fonts/bariol_regular-webfont.woff2") format("woff2"),
+    url("./../assets/fonts/bariol_regular-webfont.woff") format("woff"),
+    url("./../assets/fonts/bariol_regular-webfont.ttf") format("truetype"),
+    url("./../assets/fonts/bariol_regular-webfont.svg#bariolregular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* bariol italic */
+
+@font-face {
+  font-family: "Bariol";
+  src: url("./../assets/fonts/bariol_regular_italic-webfont.eot");
+  src: url("./../assets/fonts/bariol_regular_italic-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("./../assets/fonts/bariol_regular_italic-webfont.woff2") format("woff2"),
+    url("./../assets/fonts/bariol_regular_italic-webfont.woff") format("woff"),
+    url("./../assets/fonts/bariol_regular_italic-webfont.ttf") format("truetype"),
+    url("./../assets/fonts/bariol_regular_italic-webfont.svg#bariolitalic")
+      format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
