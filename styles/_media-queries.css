@@ -1,0 +1,9 @@
+@custom-media --fjd-media-m (min-width: 768px);
+@custom-media --fjd-media-l (min-width: 1024px);
+@custom-media --fjd-media-xl (min-width: 1400px);
+@custom-media --fjd-media-xxl (min-width: 1600px);
+
+
+:root {
+  --fs-media-m: 768px;
+}

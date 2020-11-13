@@ -1,0 +1,55 @@
+:root {
+  /* Base Color Scales */
+
+  --fjd-color-n0: #fff;
+  --fjd-color-n100: #fafafb;
+  --fjd-color-n200: #f6f7f8;
+  --fjd-color-n300: #f3f3f6;
+  --fjd-color-n400: #eff0f3;
+  --fjd-color-n500: #ebecf0;
+  --fjd-color-n600: #bcbdc0;
+  --fjd-color-n700: #8d8e90;
+  --fjd-color-n800: #5e5e60;
+  --fjd-color-n900: #2f2f30;
+  --fjd-color-n1000: #000;
+
+  --fjd-color-b100: #e9f1f9;
+  --fjd-color-b200: #c0d8ed;
+  --fjd-color-b300: #98bfe1;
+  --fjd-color-b400: #6fa5d5;
+  --fjd-color-b500: #478cca;
+  --fjd-color-b600: #1e73be;
+  --fjd-color-b700: #185c98;
+  --fjd-color-b800: #124572;
+  --fjd-color-b900: #0c2e4c;
+
+  --fjd-color-g100: #eff7f5;
+  --fjd-color-g200: #d1e9e2;
+  --fjd-color-g300: #b4dccf;
+  --fjd-color-g400: #96cebc;
+  --fjd-color-g500: #79c0aa;
+  --fjd-color-g600: #5bb297;
+  --fjd-color-g700: #4f7d6f;
+  --fjd-color-g800: #376b5b;
+  --fjd-color-g900: #24473c;
+
+  --fjd-color-o100: #fcf2ea;
+  --fjd-color-o200: #f5dbc4;
+  --fjd-color-o300: #efc59e;
+  --fjd-color-o400: #e9ae77;
+  --fjd-color-o500: #e29751;
+  --fjd-color-o600: #dc802b;
+  --fjd-color-o700: #b06622;
+  --fjd-color-o800: #844d1a;
+  --fjd-color-o900: #583311;
+
+  --fjd-color-r100: #fae9e9;
+  --fjd-color-r200: #f0c2c2;
+  --fjd-color-r300: #e79a9b;
+  --fjd-color-r400: #de7374;
+  --fjd-color-r500: #d44b4c;
+  --fjd-color-r600: #cb2425;
+  --fjd-color-r700: #a21d1e;
+  --fjd-color-r800: #7a1616;
+  --fjd-color-r900: #510e0f;
+}
