@@ -2,66 +2,22 @@
 @import './_variables.css';
 
 :root {
-  /* Border Radius */
+  /* Colors */
 
-  --fjd-border-radius-xs: 0.25rem;
-  --fjd-border-radius-s: 0.375rem;
-  --fjd-border-radius-m: 0.5rem;
-  --fjd-border-radius-l: 0.75rem;
+  --fs-color-link-primary: var(--fs-color-dark-gray);
+  --fs-color-link-secondary: var(--fs-color-primary);
+  
+  --fs-color-font-dark: var(--fs-color-dark-gray);
+  --fs-color-font-light: var(--fs-color-light-gray);
+  --fs-color-font-primary: var(--fs-color-primary);
+  --fs-color-font-secondary: var(--fs-color-secondary);
+  
+  --fs-color-shadow: var(--fs-color-medium-gray);
+  --fs-color-background: var(--fs-color-secondary);
 
   /* Box Shadows */
 
-  --fjd-box-shadow-m: 0 0.1875rem 0.1875rem -0.125rem rgba(0, 0, 0, 0.1),
-    0 0.1875rem 0.25rem 0 rgba(0, 0, 0, 0.07),
-    0 0.0625rem 0.5rem 0 rgba(0, 0, 0, 0.06);
-  --fjd-box-shadow-l: 0 0.1875rem 0.1875rem -0.125rem rgba(0, 0, 0, 0.2),
-    0 0.1875rem 0.25rem 0 rgba(0, 0, 0, 0.14),
-    0 0.0625rem 0.5rem 0 rgba(0, 0, 0, 0.12);
-  --fjd-box-shadow-xl: 0 0.1875rem 3.75rem rgba(0, 0, 0, 0.07);
-
-  /* Colors */
-
-  --fjd-color-brand: var(--fjd-color-b600);
-
-  --fjd-color-action-primary: var(--fjd-color-b600);
-  --fjd-color-action-primary-hover: var(--fjd-color-b700);
-  --fjd-color-action-primary-disabled: var(--fjd-color-b300);
-  --fjd-color-action-primary-active: var(--fjd-color-b100);
-  --fjd-color-action-secondary: var(--fjd-color-n800);
-  --fjd-color-action-secondary-hover: var(--fjd-color-n900);
-  --fjd-color-action-secondary-disabled: var(--fjd-color-n600);
-  --fjd-color-action-tertiary: var(--fjd-color-n300);
-  --fjd-color-action-tertiary-hover: var(--fjd-color-n500);
-  --fjd-color-action-success: var(--fjd-color-g700);
-  --fjd-color-action-success-hover: var(--fjd-color-g800);
-  --fjd-color-action-success-muted: var(--fjd-color-g100);
-  --fjd-color-action-warn: var(--fjd-color-o600);
-  --fjd-color-action-warn-hover: var(--fjd-color-o700);
-  --fjd-color-action-warn-muted: var(--fjd-color-o100);
-  --fjd-color-action-error: var(--fjd-color-r600);
-  --fjd-color-action-error-hover: var(--fjd-color-r700);
-  --fjd-color-action-error-muted: var(--fjd-color-r100);
-  --fjd-color-action-info: var(--fjd-color-b600);
-  --fjd-color-action-info-hover: var(--fjd-color-b700);
-  --fjd-color-action-info-muted: var(--fjd-color-b100);
-
-  --fjd-color-input-background: var(--fjd-color-n200);
-  --fjd-color-input-border: var(--fjd-color-n600);
-  --fjd-color-input-disabled: var(--fjd-color-n400);
-  --fjd-color-input-placeholder: var(--fjd-color-n700);
-
-  --fjd-color-text-dark: var(--fjd-color-n900);
-  --fjd-color-text-dark-muted: var(--fjd-color-n700);
-  --fjd-color-text-light: var(--fjd-color-n0);
-
-  --fjd-color-background: var(--fjd-color-n0);
-  --fjd-color-background-alternate: var(--fjd-color-n200);
-  --fjd-color-background-dark: var(--fjd-color-n900);
-
-  --fjd-color-border-light: var(--fjd-color-n400);
-  --fjd-color-border-medium: var(--fjd-color-n500);
-
-  --fjd-color-separator: var(--fjd-color-n500);
+  --fs-box-shadow-m: -3.0rem 3.0rem 0 var(--fs-color-shadow);
 
   /* Spacing */
 
