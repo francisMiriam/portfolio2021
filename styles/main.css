@@ -66,8 +66,6 @@ a {
   margin-bottom: 0;
 }
 
-
-
 .image {
   mix-blend-mode: normal;
 
@@ -80,16 +78,20 @@ a {
   margin-bottom: 6rem;
   margin-left: 3rem;
 
-  width: calc(100% - 3rem) ;
+  width: calc(100% - 3rem);
 }
 
 .image-vita {
+  width: calc(100% - 3rem);
   mix-blend-mode: normal;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 6rem;
   margin-left: 3rem;
+}
+
+.image-vita-img {
+  width: 75%;
 }
 
 .image-img {
@@ -124,7 +126,6 @@ a {
   box-shadow: var(--fs-shadow-down);
   margin-bottom: 3rem;
 }
-
 
 /* Spacer */
 
@@ -190,7 +191,6 @@ a {
 .text-color-secondary {
   color: var(--fs-color-font-secondary);
 }
-
 
 /* 
  *
@@ -308,6 +308,22 @@ a {
 }
 
 /* Link Secondary */
+.link-secondary-small {
+  font-size: 1.8rem;
+  line-height: 3rem;
+  text-decoration-line: underline;
+  color: var(--fs-color-link-light);
+
+  font-style: italic;
+  letter-spacing: 0.2em;
+  text-decoration-line: underline;
+  color: var(--fs-color-link-secondary);
+}
+
+.link-secondary-small:hover {
+  text-shadow: -2px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
 .link-secondary-medium {
   font-style: italic;
   font-size: 2rem;
@@ -343,7 +359,7 @@ a {
 
   display: flex;
   text-align: center;
-  
+
   font-family: var(--fs-font-display);
   font-size: 2.5rem;
   line-height: 4.5rem;
@@ -375,7 +391,6 @@ a {
   text-transform: lowercase;
 
   color: var(--fs-color-font-dark);
-
 
   background: var(--fs-color-font-primary);
   box-shadow: var(--fs-button-shadow);
