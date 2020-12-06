@@ -17,7 +17,8 @@
 
 @media (min-width: 1024px) {
   .layout-content {
-    padding-bottom: 12rem;
+    padding-top: 20rem;
+    padding-bottom: 25rem;
   }
 }
 

@@ -14,16 +14,19 @@
   --fs-color-font-primary: var(--fs-color-primary);
   --fs-color-font-secondary: var(--fs-color-secondary);
 
-  --fs-color-shadow: var(--fs-color-medium-gray);
+  --fs-color-shadow: var(--fs-color-grayshadow);
   --fs-color-shadow-light: var(--fs-color-primary);
 
   /* Box Shadows */
 
+  --fs-shadow-down: 0 3rem 0 var(--fs-color-shadow);
   --fs-shadow-left-up: -3rem -3rem 0 var(--fs-color-shadow);
   --fs-shadow-left-down: -3rem 3rem 0 var(--fs-color-shadow);
 
-  --fs-button-shadow: -10px 10px 0px var(--fs-color-shadow);
-  --fs-button-shadow-small: -5px 5px 0px var(--fs-color-shadow);
+  --fs-button-shadow: -1rem 1rem 0 var(--fs-color-shadow);
+  --fs-button-shadow-small: -0.5rem 0.5rem 0 var(--fs-color-shadow);
+
+  
 
   /* Typrography */
 

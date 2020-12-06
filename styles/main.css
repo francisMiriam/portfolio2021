@@ -38,11 +38,12 @@ a {
 .section-header {
   display: flex;
   justify-content: flex-end;
-  padding: 4.5rem 3rem 1.5rem 0rem;
+  padding: 6rem 3rem 3rem 0rem;
 }
 
 .section-header-icon {
   margin-right: 2rem;
+  width: 4.5rem;
 }
 
 .section-title {
@@ -69,7 +70,6 @@ a {
 
 .image {
   mix-blend-mode: normal;
-  opacity: 0.5;
 
   box-shadow: var(--fs-shadow-left-down);
 
@@ -77,6 +77,17 @@ a {
   justify-content: center;
   align-items: center;
 
+  margin-bottom: 6rem;
+  margin-left: 3rem;
+
+  width: calc(100% - 3rem) ;
+}
+
+.image-vita {
+  mix-blend-mode: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 6rem;
   margin-left: 3rem;
 }
@@ -92,17 +103,26 @@ a {
 }
 
 .background-primary-light {
-  background-color: var(--fs-color-primary);
-  opacity: 0.5;
+  background-color: var(--fs-color-primary-light);
 }
 
 .background-secondary {
   background-color: var(--fs-color-secondary);
 }
 
+.background-secondary-light {
+  background-color: var(--fs-color-secondary-light);
+}
+
 .background-gray-light {
   background-color: var(--fs-color-light-gray);
   opacity: 0.5;
+}
+
+/* Shadow */
+.shadow-down {
+  box-shadow: var(--fs-shadow-down);
+  margin-bottom: 3rem;
 }
 
 
@@ -318,6 +338,12 @@ a {
 
 /* Link Button */
 .link-button {
+  margin-bottom: 9rem;
+  margin-top: 9rem;
+
+  display: flex;
+  text-align: center;
+  
   font-family: var(--fs-font-display);
   font-size: 2.5rem;
   line-height: 4.5rem;
