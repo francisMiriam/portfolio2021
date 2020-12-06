@@ -1,0 +1,72 @@
+
+.francis-portrait {
+}
+
+.francis-portrait-img {
+  width: 65%;
+  filter: drop-shadow(var(--fs-shadow-left-up));
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.francis-portrait-subtitle {
+  margin-top: 5rem;
+  max-width: 55rem;
+}
+
+.francis-mailto {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 55rem;
+}
+
+.francis-mailto-subtitle {
+  font-size: 2.5rem;
+  letter-spacing: 0.45em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.francis-portrait-subtitle-text {
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+@media (min-width: 1024px) {
+  .francis-portrait-subtitle-text {
+    max-width: 55rem;
+    margin-top: 2rem;
+
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+}
+
+.francis-title {
+  font-family: var(--fs-font-display);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.5rem;
+  line-height: 5.5rem;
+  text-align: center;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--fs-color-font-light);
+
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 1024px) {
+  .francis-title {
+    margin-bottom: 12rem;
+  }
+}
