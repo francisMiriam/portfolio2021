@@ -15,7 +15,7 @@
   --fs-color-font-secondary: var(--fs-color-secondary);
 
   --fs-color-shadow: var(--fs-color-grayshadow);
-  --fs-color-shadow-light: var(--fs-color-primary);
+  --fs-color-shadow-light: var(--fs-color-primary-light);
 
   /* Box Shadows */
 

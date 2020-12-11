@@ -22,6 +22,28 @@
   }
 }
 
+/* Helper */
+
+.hidde-on-small {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .hidde-on-small {
+    display: block;
+  }
+}
+
+.hidde-on-medium {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .hidde-on-medium {
+    display: none;
+  }
+}
+
 /* Grid */
 
 .layout-grid {
@@ -224,4 +246,15 @@
   .layout-grid {
     column-gap: 12rem;
   }
+}
+
+
+/* vita */
+
+.layout-vita-grid-column-left {
+  justify-content: start;
+}
+
+.layout-vita-image {
+  flex-grow: 1;
 }
