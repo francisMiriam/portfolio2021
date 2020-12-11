@@ -199,7 +199,7 @@ a {
  */
 
 /* Link Dark */
-.link-dark-small {
+/* .link-dark-small {
   font-size: 1.8rem;
   line-height: 3rem;
   text-decoration-line: underline;
@@ -236,7 +236,7 @@ a {
 
 .link-dark-large:hover {
   text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.7);
-}
+} */
 
 /* Link Light */
 .link-light-small {
@@ -247,7 +247,8 @@ a {
 }
 
 .link-light-small:hover {
-  text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.7);
+  color: var(--fs-color-link-primary);
+  /* text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.7); */
 }
 
 .link-light-medium {
@@ -282,6 +283,7 @@ a {
 .link-primary-medium {
   font-style: italic;
   font-size: 2rem;
+  text-decoration-line: none;
   line-height: 4rem;
   letter-spacing: 0.1em;
   text-decoration-line: underline;
@@ -289,7 +291,9 @@ a {
 }
 
 .link-primary-medium:hover {
-  text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.7);
+
+  color: var(--fs-color-link-light);
+  /* text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.7); */
 }
 
 .link-primary-large {
@@ -304,7 +308,8 @@ a {
 }
 
 .link-primary-large:hover {
-  text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.7);
+  color: var(--fs-color-light-gray);
+  /* text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.7); */
 }
 
 /* Link Secondary */
@@ -321,10 +326,10 @@ a {
 }
 
 .link-secondary-small:hover {
-  text-shadow: -2px 1px 2px rgba(0, 0, 0, 0.5);
+  color: var(--fs-color-link-primary);
 }
 
-.link-secondary-medium {
+/* .link-secondary-medium {
   font-style: italic;
   font-size: 2rem;
   line-height: 4rem;
@@ -334,13 +339,14 @@ a {
 }
 
 .link-secondary-medium:hover {
+  color: var(--fs-color-light-gray);
   text-shadow: -2px 1px 2px rgba(0, 0, 0, 0.5);
-}
+} */
 
 .link-secondary-large {
   font-family: var(--fs-font-display);
   font-style: italic;
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 6rem;
   letter-spacing: 0.05em;
   text-decoration-line: underline;
@@ -349,7 +355,8 @@ a {
 }
 
 .link-secondary-large:hover {
-  text-shadow: -2px 1px 2px rgba(0, 0, 0, 0.5);
+  color: var(--fs-color-link-primary);
+
 }
 
 /* Link Button */
@@ -372,7 +379,8 @@ a {
 }
 
 .link-button:hover {
-  text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.7);
+  color: var(--fs-color-link-primary);
+  /* text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.7); */
 }
 
 /* Link Mail Address */
@@ -383,10 +391,10 @@ a {
   font-family: var(--fs-font-display);
   font-style: italic;
   font-weight: normal;
-  font-size: 2.5rem;
+  font-size: 2rem;
   /* line-height: 1.5; */
 
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1em;
   text-decoration-line: underline;
   text-transform: lowercase;
 
@@ -397,5 +405,7 @@ a {
 }
 
 .link-mail:hover {
+  background: var(--fs-color-secondary);
+  color: var(--fs-color-font-light);
   box-shadow: var(--fs-button-shadow-small);
 }
