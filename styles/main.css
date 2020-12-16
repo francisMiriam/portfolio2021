@@ -43,7 +43,7 @@ a {
 
 .section-header-icon {
   margin-right: 2rem;
-  width: 4.5rem;
+  width: 4rem;
 }
 
 .section-title {
@@ -51,7 +51,7 @@ a {
 
   font-style: italic;
   font-weight: normal;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   line-height: 6rem;
   text-align: right;
   letter-spacing: 0.4em;
@@ -153,7 +153,7 @@ a {
 }
 
 .subtitle {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   line-height: 6rem;
   letter-spacing: 0.45em;
   text-transform: uppercase;
@@ -174,12 +174,12 @@ a {
 }
 
 .text {
-  font-size: 2rem;
-  line-height: 4rem;
+  font-size: 1.9rem;
+  line-height: 3.8rem;
 }
 
 .text-small {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
     line-height: 3rem;
 }
 
@@ -194,7 +194,9 @@ a {
 .text-color-secondary {
   color: var(--fs-color-font-secondary);
 }
-
+.text-color-dark {
+  color: var(--fs-color-dark-gray);
+}
 /* 
  *
  * Link
@@ -243,7 +245,7 @@ a {
 
 /* Link Light */
 .link-light-small {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   line-height: 3rem;
   text-decoration-line: underline;
   color: var(--fs-color-link-light);
@@ -317,7 +319,7 @@ a {
 
 /* Link Secondary */
 .link-secondary-small {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   line-height: 3rem;
   text-decoration-line: underline;
   color: var(--fs-color-link-light);
@@ -418,6 +420,7 @@ a {
 
 .contact {
   margin-bottom: 3rem;
+  margin-top: 2rem;
 }
 
 .contact a {

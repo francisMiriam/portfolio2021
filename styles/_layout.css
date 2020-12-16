@@ -17,8 +17,8 @@
 
 @media (min-width: 1024px) {
   .layout-content {
-    padding-top: 20rem;
-    padding-bottom: 25rem;
+    padding-top: 15rem;
+    padding-bottom: 20rem;
   }
 }
 
@@ -73,7 +73,7 @@
 
 @media (min-width: 1024px) {
   .layout-grid {
-    column-gap: 4rem;
+    column-gap: 7rem;
   }
 
   .layout-grid-column-left {
@@ -238,7 +238,7 @@
 
 @media (min-width: 1400px) {
   .layout-grid {
-    column-gap: 4rem;
+    column-gap: 6rem;
   }
 }
 
