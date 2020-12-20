@@ -1,6 +1,5 @@
 @import "./_theme.css";
 @import "./_layout.css";
-/* @import "./_variables.css"; */
 @import "./_header.css";
 
 *,
@@ -169,7 +168,6 @@ a {
 .subtitle-shadow-light {
   height: 1.9rem;
   background-color: var(--fs-color-shadow-light);
-  /* opacity: 0.5; */
   margin-top: -3rem;
 }
 
@@ -203,46 +201,6 @@ a {
  *
  */
 
-/* Link Dark */
-/* .link-dark-small {
-  font-size: 1.8rem;
-  line-height: 3rem;
-  text-decoration-line: underline;
-  color: var(--fs-color-link-dark);
-}
-
-.link-dark-small:hover {
-  text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.7);
-}
-
-.link-dark-medium {
-  font-style: italic;
-  font-size: 2rem;
-  line-height: 4rem;
-  letter-spacing: 0.2em;
-  text-decoration-line: underline;
-  color: var(--fs-color-link-dark);
-}
-
-.link-dark-medium:hover {
-  text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.7);
-}
-
-.link-dark-large {
-  font-family: var(--fs-font-display);
-  font-style: italic;
-  font-size: 2.5rem;
-  line-height: 6rem;
-  letter-spacing: 0.05em;
-  text-decoration-line: underline;
-  text-transform: lowercase;
-  color: var(--fs-color-link-dark);
-}
-
-.link-dark-large:hover {
-  text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.7);
-} */
-
 /* Link Light */
 .link-light-small {
   font-size: 1.5rem;
@@ -253,7 +211,6 @@ a {
 
 .link-light-small:hover {
   color: var(--fs-color-link-primary);
-  /* text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.7); */
 }
 
 .link-light-medium {
@@ -296,9 +253,7 @@ a {
 }
 
 .link-primary-medium:hover {
-
   color: var(--fs-color-link-light);
-  /* text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.7); */
 }
 
 .link-primary-large {
@@ -314,7 +269,6 @@ a {
 
 .link-primary-large:hover {
   color: var(--fs-color-light-gray);
-  /* text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.7); */
 }
 
 /* Link Secondary */
@@ -334,20 +288,6 @@ a {
   color: var(--fs-color-link-primary);
 }
 
-/* .link-secondary-medium {
-  font-style: italic;
-  font-size: 2rem;
-  line-height: 4rem;
-  letter-spacing: 0.2em;
-  text-decoration-line: underline;
-  color: var(--fs-color-link-secondary);
-}
-
-.link-secondary-medium:hover {
-  color: var(--fs-color-light-gray);
-  text-shadow: -2px 1px 2px rgba(0, 0, 0, 0.5);
-} */
-
 .link-secondary-large {
   font-family: var(--fs-font-display);
   font-style: italic;
@@ -366,11 +306,10 @@ a {
 
 /* Link Button */
 .link-button {
-  margin-bottom: 9rem;
-  margin-top: 9rem;
+  margin-bottom: 4.5rem;
+  margin-top: 4.5rem;
 
   display: flex;
-  /* text-align: center; */
 
   font-family: var(--fs-font-display);
   font-size: 2.5rem;
@@ -383,13 +322,18 @@ a {
   color: var(--fs-color-link-light);
 }
 
+@media (min-width: 768px) {
+  .link-button {
+    margin-bottom: 9rem;
+    margin-top: 9rem;
+  }
+}
+
 .link-button:hover {
   color: var(--fs-color-link-primary);
-  /* text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.7); */
 }
 
 .link-button-icon {
-  margin-left: 2rem;
   margin-right: 2rem;
   width: 4rem;
 }
@@ -403,8 +347,7 @@ a {
   font-style: italic;
   font-weight: normal;
   font-size: 2rem;
-  /* line-height: 1.5; */
-
+  
   letter-spacing: 0.1em;
   text-decoration-line: underline;
   text-transform: lowercase;
