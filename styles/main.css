@@ -364,6 +364,31 @@ a {
   width: 4rem;
 }
 
+/* Link Button Placeholder */
+.link-button-placeholder {
+  margin-bottom: 4.5rem;
+  margin-top: 4.5rem;
+
+  display: flex;
+
+  font-family: var(--fs-font-display);
+  font-size: 2.5rem;
+  line-height: 4.5rem;
+
+  letter-spacing: 0.3em;
+  text-decoration-line: none;
+  text-transform: uppercase;
+
+  color: var(--fs-color-link-light);
+}
+
+@media (min-width: 768px) {
+  .link-button-placeholder  {
+    margin-bottom: 9rem;
+    margin-top: 9rem;
+  }
+}
+
 /* Link Mail Address */
 .link-mail {
   padding-left: 1rem;
