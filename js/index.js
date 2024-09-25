@@ -1,7 +1,7 @@
 import ScrollReveal from 'scrollreveal'
 
 const options = {
-  delay: 700,
+  delay: 300,
   opacity: 0,
   // distance: '100px',
   scale: 0.9,
@@ -12,7 +12,7 @@ const options = {
 ScrollReveal(options);
 
 ScrollReveal().reveal('.francis-portrait',{
-  delay: 100,
+  delay: 90,
   // opacity: 0,
   // distance: '20px',
   duration: 300,
