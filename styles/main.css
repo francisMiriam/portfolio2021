@@ -11,7 +11,8 @@
 }
 
 html {
-  font-size: 50%; /* 10px/16px = 62.5% -> 1rem = 10px */
+  font-size: 50%;
+  /* 10px/16px = 62.5% -> 1rem = 10px */
 }
 
 @media (min-width: 768px) {
@@ -200,9 +201,11 @@ a {
 .text-color-secondary {
   color: var(--fs-color-font-secondary);
 }
+
 .text-color-dark {
   color: var(--fs-color-dark-gray);
 }
+
 /* 
  *
  * Link
@@ -219,9 +222,9 @@ a {
 
 @media (min-width: 1024px) {
   .link-light-small {
- 
+
     font-size: 1.5rem;
- 
+
   }
 }
 
@@ -383,7 +386,7 @@ a {
 }
 
 @media (min-width: 768px) {
-  .link-button-placeholder  {
+  .link-button-placeholder {
     margin-bottom: 9rem;
     margin-top: 9rem;
   }

@@ -11,12 +11,12 @@ const options = {
 
 ScrollReveal(options);
 
-ScrollReveal().reveal('.francis-portrait',{
+ScrollReveal().reveal('.francis-portrait', {
   delay: 90,
   // opacity: 0,
   // distance: '20px',
   duration: 300,
   easing: 'cubic-bezier(0.5, 0, 0.25, 0.5)',
-} )
+})
 ScrollReveal().reveal('.image')
 ScrollReveal().reveal('.image-vita')
