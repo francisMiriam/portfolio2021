@@ -9,10 +9,10 @@
   --fs-color-dark-gray: #3D3C35;
   --fs-color-medium-gray: #41545D;
   --fs-color-light-gray: #F5F5F2;
-  --fs-color-primary: #FFC4BB;
-  --fs-color-primary-light: #FFDAD3;
-  --fs-color-secondary: #465883;
-  --fs-color-secondary-light: #9CABBA;
+  --fs-color-primary: #3163E7;
+  /* --fs-color-primary-light: #FFDAD3; */
+  --fs-color-secondary: #FDFFBA;
+  /* --fs-color-secondary-light: #9CABBA; */
   --fs-color-grayshadow: rgba(65, 84, 93, 0.5);
 
 }

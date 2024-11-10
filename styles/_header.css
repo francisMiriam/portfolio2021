@@ -1,5 +1,17 @@
+.header-title {
+  font-family: var(--fs-font-display);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.5rem;
+  line-height: 5.2rem;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: var(--fs-color-font-dark);
+}
 
-.francis-portrait {
+
+
+ .francis-portrait {
 }
 
 .francis-portrait-img {
@@ -8,7 +20,7 @@
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
-
+/*
 .francis-portrait-subtitle {
   margin-top: 5rem;
   max-width: 55rem;
@@ -69,4 +81,4 @@
   .francis-title {
     margin-bottom: 12rem;
   }
-}
+} */
