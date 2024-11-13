@@ -59,11 +59,11 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding-top: 5rem;
-  padding-bottom: 6rem;
+  margin-top: 10rem;
+  padding-top: 7rem;
+  padding-bottom: 5rem;
   background: url("./../assets/images/background_Banner2.png");
 }
-
 /* Footer */
 
 

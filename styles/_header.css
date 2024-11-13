@@ -47,12 +47,12 @@
 
 .link-secondary-large {
   font-family: var(--fs-font-display);
-  font-style: italic;
-  font-size: 2rem;
-  line-height: 6rem;
-  letter-spacing: 0.05em;
+  /* font-style: italic; */
+  font-size: 3.6rem;
+  /* line-height: 6rem; */
+  /* letter-spacing: 0.05em; */
   text-decoration-line: underline;
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   color: var(--fs-color-link-light);
 }
 
