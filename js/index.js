@@ -1,22 +1,24 @@
 import ScrollReveal from 'scrollreveal'
 
 const options = {
-  delay: 300,
+  delay: 200,
   opacity: 0,
   // distance: '100px',
   scale: 0.9,
-  duration: 900,
-  easing: 'cubic-bezier(0.5, 0, 0, 0.5)',
+  duration: 600,
+  easing: 'cubic-bezier(0.5, 0, 0.25, 0.5)',
 }
 
 ScrollReveal(options);
 
-ScrollReveal().reveal('.francis-portrait', {
+ScrollReveal().reveal('.box-bio-content', {
   delay: 90,
-  // opacity: 0,
+  opacity: 0,
   // distance: '20px',
+  scale: 0.9,
   duration: 300,
   easing: 'cubic-bezier(0.5, 0, 0.25, 0.5)',
 })
-ScrollReveal().reveal('.image')
-ScrollReveal().reveal('.image-vita')
+ScrollReveal().reveal('.box-img-content')
+ScrollReveal().reveal('.box-portfolio-content')
+ScrollReveal().reveal('.box-francis-content')

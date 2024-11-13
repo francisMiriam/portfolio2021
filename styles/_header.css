@@ -1,84 +1,220 @@
-.header-title {
-  font-family: var(--fs-font-display);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 3.5rem;
-  line-height: 5.2rem;
-  text-align: center;
+/* link-primary-medium */
+.link-primary-medium {
+  /* font-style: italic; */
+  font-size: 2rem;
+  /* text-decoration-line: none; */
+  /* line-height: 4rem; */
+  /* letter-spacing: 0.1em; */
+  text-decoration-line: underline;
+  color: var(--fs-color-link-primary);
+}
+
+.link-primary-medium:hover {
+  color: var(--fs-color-link-dark);
+}
+
+/* link-primary-medium */
+
+
+.link-dark-small {
+  font-size: 1.8rem;
+  /* line-height: 3rem; */
+  text-decoration-line: underline;
+  color: var(--fs-color-link-primary);
+}
+
+.link-dark-small:hover {
+  color: var(--fs-color-link-dark);
+}
+
+
+
+.link-secondary-small {
+  font-size: 1.5rem;
+  line-height: 3rem;
+  text-decoration-line: underline;
+  color: var(--fs-color-link-light);
+
+  font-style: italic;
   letter-spacing: 0.2em;
-  color: var(--fs-color-font-dark);
+  text-decoration-line: underline;
+  color: var(--fs-color-link-secondary);
+}
+
+.link-secondary-small:hover {
+  color: var(--fs-color-link-primary);
+}
+
+.link-secondary-large {
+  font-family: var(--fs-font-display);
+  font-style: italic;
+  font-size: 2rem;
+  line-height: 6rem;
+  letter-spacing: 0.05em;
+  text-decoration-line: underline;
+  text-transform: lowercase;
+  color: var(--fs-color-link-light);
+}
+
+.link-secondary-large:hover {
+  color: var(--fs-color-link-secondary);
 }
 
 
+/* Link Button */
+.link-button {
+  /* margin-bottom: 2.6rem; */
+  /* margin-top: 4.5rem; */
 
- .francis-portrait {
+  display: flex; */
+
+  font-family: var(--fs-font-display);
+  font-size: 2.6rem;
+  /* line-height: 4.5rem; */
+
+  /* letter-spacing: 0.3em; */
+  text-decoration-line: underline;
+  /* text-transform: uppercase; */
+
+  color: var(--fs-color-link-light);
 }
 
-.francis-portrait-img {
-  width: 65%;
-  filter: drop-shadow(var(--fs-shadow-left-up));
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-/*
-.francis-portrait-subtitle {
-  margin-top: 5rem;
-  max-width: 55rem;
+@media (min-width: 768px) {
+  .link-button {
+    margin-bottom: 9rem;
+    margin-top: 9rem;
+  }
 }
 
-.francis-mailto {
-  margin-top: 4rem;
-  margin-bottom: 2rem;
-  
-  width: 100%;
+.link-button:hover {
+  color: var(--fs-color-link-secondary);
+}
+
+.link-button-icon {
+  margin-right: 2rem;
+  height: 3.5rem;
+  /* width: 4rem; */
+}
+
+/* Link Button Placeholder */
+.link-button-placeholder {
+  margin-bottom: 4.5rem;
+  margin-top: 4.5rem;
 
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  max-width: 55rem;
-}
 
-.francis-mailto-subtitle {
+  font-family: var(--fs-font-display);
   font-size: 2.5rem;
-  letter-spacing: 0.45em;
+  line-height: 4.5rem;
+
+  letter-spacing: 0.3em;
+  text-decoration-line: none;
   text-transform: uppercase;
-  text-align: center;
+
+  color: var(--fs-color-link-light);
 }
 
-.francis-portrait-subtitle-text {
-  margin-top: 4rem;
-  margin-bottom: 6rem;
-
-  font-size: 2rem;
-  line-height: 4rem;
-}
-
-@media (min-width: 1024px) {
-  .francis-portrait-subtitle-text {
-    max-width: 55rem;
-    margin-top: 2rem;
-
-    font-size: 1.5rem;
-    line-height: 3rem;
+@media (min-width: 768px) {
+  .link-button-placeholder {
+    margin-bottom: 9rem;
+    margin-top: 9rem;
   }
 }
 
-.francis-title {
+
+/* Link Mail Address */
+.link-mail {
+  display: block;
+  width: 26rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+
   font-family: var(--fs-font-display);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 3.5rem;
-  line-height: 5.2rem;
-  text-align: center;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
+  /* font-style: italic; */
+  /* font-weight: normal; */
+  font-size: 2rem;
+
+  /* letter-spacing: 0.1em; */
+  text-decoration-line: underline;
+  text-transform: lowercase;
+
   color: var(--fs-color-font-light);
 
-  margin-bottom: 3rem;
+  background: var(--fs-color-font-primary);
+  /* box-shadow: var(--fs-button-shadow); */
 }
 
-@media (min-width: 1024px) {
-  .francis-title {
-    margin-bottom: 12rem;
+.link-mail:hover {
+  background: var(--fs-color-secondary);
+  color: var(--fs-color-font-dark);
+  /* box-shadow: var(--fs-button-shadow-small); */
+}
+
+
+
+/* Link Light */
+/* .link-light-small {
+  font-size: 2rem;
+  line-height: 3rem;
+  text-decoration-line: underline;
+  color: var(--fs-color-link-light);
+}
+
+.link-light-small:hover {
+  color: var(--fs-color-link-primary);
+} */
+
+/* @media (min-width: 1024px) {
+  .link-light-small {
+    font-size: 1.5rem;
   }
 } */
+
+/* .link-light-medium {
+  font-style: italic;
+  font-size: 2rem;
+  line-height: 4rem;
+  letter-spacing: 0.2em;
+  text-decoration-line: underline;
+  color: var(--fs-color-link-light);
+}
+
+.link-light-medium:hover {
+  text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.7);
+} */
+
+/* .link-light-large {
+  font-family: var(--fs-font-display);
+  font-style: italic;
+  font-size: 2.5rem;
+  line-height: 6rem;
+  letter-spacing: 0.05em;
+  text-decoration-line: underline;
+  text-transform: lowercase;
+  color: var(--fs-color-link-light);
+}
+
+.link-light-large:hover {
+  text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.7);
+} */
+
+/* Link Primary */
+
+
+/* .link-primary-large {
+  font-family: var(--fs-font-display);
+  font-style: italic;
+  font-size: 2.5rem;
+  line-height: 6rem;
+  letter-spacing: 0.05em;
+  text-decoration-line: underline;
+  text-transform: lowercase;
+  color: var(--fs-color-link-primary);
+}
+
+.link-primary-large:hover {
+  color: var(--fs-color-light-gray);
+} */
+
+/* Link Secondary */
