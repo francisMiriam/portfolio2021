@@ -1,3 +1,4 @@
+/* layout main */
 .layout-content {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -21,7 +22,9 @@
     padding-bottom: 8rem;
   }
 }
+/* layout main */
 
+/* layout impressum */
 .layout-index {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -40,13 +43,14 @@
 }
 
 .layout-index-content {
-  max-width: 1520px;
+  max-width: 1024px;
   display: flex;
   flex-direction: column;
 }
+/* layout impressum */
+
 
 /* Helper */
-
 .hidde-on-small {
   display: none;
 }
@@ -66,9 +70,9 @@
     display: none;
   }
 }
+/* Helper */
 
 /* Grid */
-
 .layout-grid {
   max-width: 1520px;
   display: grid;
@@ -120,6 +124,18 @@
     flex-direction: column;
     /* justify-content: center; */
   }
+}
+
+/* Grid */
+
+.layout-footer {
+  max-width: 1520px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 7rem;
+  padding-bottom: 5rem;
 }
 
 /* Header */
@@ -203,11 +219,11 @@
 .layout-subtitle {
   grid-row-start: 1;
   grid-row-end: 2;
- 
+
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 5rem;
+  justify-content: left;
+  margin-bottom: 3rem;
 }
 
 .layout-image {
@@ -218,6 +234,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 3rem;
 }
 
 .layout-description {
@@ -231,11 +248,11 @@
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-   
+
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 5rem;
+    justify-content: left;
+    margin-bottom: 3rem;
   }
 
   .layout-image {
@@ -243,13 +260,14 @@
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
-  
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* width: 60%; */
   }
-  
+
   .layout-description {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -274,7 +292,7 @@
 
 /* vita */
 
-.layout-vita-grid-column-left {
+.  {
   justify-content: start;
 }
 
