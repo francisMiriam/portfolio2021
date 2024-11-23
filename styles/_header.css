@@ -47,80 +47,53 @@
 
 .link-secondary-large {
   font-family: var(--fs-font-display);
-  /* font-style: italic; */
-  font-size: 3.6rem;
-  /* line-height: 6rem; */
-  /* letter-spacing: 0.05em; */
+  font-size: 2.4rem;
   text-decoration-line: underline;
-  /* text-transform: lowercase; */
   color: var(--fs-color-link-light);
 }
 
 .link-secondary-large:hover {
   color: var(--fs-color-link-secondary);
+  /* color: var(--fs-color-font-dark); */
 }
 
 
 /* Link Button */
 .link-button {
-  margin-bottom: 3rem;
-  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  
+  width: 100%;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
 
-  display: flex; */
+  
 
   font-family: var(--fs-font-display);
   font-size: 2.6rem;
-  /* line-height: 4.5rem; */
-
-  /* letter-spacing: 0.3em; */
   text-decoration-line: underline;
-  /* text-transform: uppercase; */
-
-  color: var(--fs-color-link-light);
+  
+  color: var(--fs-color-font-light);
+  background: var(--fs-color-font-primary);
 }
 
 @media (min-width: 768px) {
   .link-button {
-    margin-bottom: 9rem;
-    margin-top: 9rem;
+    padding-bottom: 9rem;
+    padding-top: 9rem;
   }
 }
 
 .link-button:hover {
-  color: var(--fs-color-link-secondary);
+  background: var(--fs-color-secondary);
+  color: var(--fs-color-font-dark);
 }
 
 .link-button-icon {
   margin-right: 2rem;
   height: 3.5rem;
-  /* width: 4rem; */
+  fill: red;
 }
-
-/* Link Button Placeholder */
-.link-button-placeholder {
-  margin-bottom: 4.5rem;
-  margin-top: 4.5rem;
-
-  display: flex;
-
-  font-family: var(--fs-font-display);
-  font-size: 2.5rem;
-  line-height: 4.5rem;
-
-  letter-spacing: 0.3em;
-  text-decoration-line: none;
-  text-transform: uppercase;
-
-  color: var(--fs-color-link-light);
-}
-
-@media (min-width: 768px) {
-  .link-button-placeholder {
-    margin-bottom: 9rem;
-    margin-top: 9rem;
-  }
-}
-
 
 /* Link Mail Address */
 .link-mail {
@@ -131,18 +104,13 @@
   padding-left: 2rem;
 
   font-family: var(--fs-font-display);
-  /* font-style: italic; */
-  /* font-weight: normal; */
   font-size: 2rem;
 
-  /* letter-spacing: 0.1em; */
   text-decoration-line: underline;
   text-transform: lowercase;
 
   color: var(--fs-color-font-light);
-
-  background: var(--fs-color-font-primary);
-  /* box-shadow: var(--fs-button-shadow); */
+background: var(--fs-color-font-primary);
 }
 
 .link-mail:hover {

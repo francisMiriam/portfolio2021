@@ -35,7 +35,9 @@ a {
 .header {
   display: flex;
   justify-content: flex-end;
-  padding: 6rem 6rem 12rem 0rem;
+  height: 150px;
+  padding-top: 4rem;
+  padding-right: 5rem;
   background: url("./../assets/images/background_Banner.png");
 }
 
@@ -59,8 +61,16 @@ a {
   background: url("./../assets/images/background_Banner2.png");
   display: flex;
   justify-content: center;
-  margin-top: 8rem;
+  height: 150px;
+  margin-top: 1rem;
 }
+
+@media (min-width: 768px) {
+  .footer {
+    margin-top: 8rem;
+  }
+}
+
 /* Footer */
 
 
@@ -72,7 +82,7 @@ a {
 }
 
 .section-title {
-  
+
   /* font-style: italic; */
   font-weight: normal;
   font-size: 4rem;
@@ -112,6 +122,25 @@ a {
 
 .image-img {
   width: 100%;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-in;
+  /* animation-timing-function: cubic-bezier(0.5, 0, 0.25, 0.5); */
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.3;
+    scale: 0.9
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 .image-vita {
@@ -253,13 +282,14 @@ a {
   width: 100%;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   max-width: 55rem;
 }
 
 .francis-mailto-text {
   align-content: center;
+  margin-right: 3rem;
 }
 
 /* box*/
@@ -344,7 +374,7 @@ a {
 
 .box-portfolio-background {
   height: 100%;
-  width: 98%; 
+  width: 98%;
   position: absolute;
   top: 8%;
   left: 2%;
@@ -354,10 +384,10 @@ a {
 .box-portfolio-content {
   /* height: 20rem; */
   width: 98%;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  /* position: relative; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-content: center; */
 }
 
 .box-francis {
