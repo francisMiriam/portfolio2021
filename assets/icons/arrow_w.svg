@@ -4,10 +4,10 @@
     <g id="ArtBoard1" transform="matrix(0.604456,0,0,0.528222,-1.43754,0.719724)">
         <rect x="2.378" y="-1.363" width="90.358" height="126.861" style="fill:none;"/>
         <g transform="matrix(2.16719e-17,0.405008,-1.0244,7.17791e-17,292.862,-187.685)">
-            <path d="M486.845,239.157L706.709,239.157L621.218,209.62L706.709,239.157L621.218,268.694L706.709,239.157L486.845,239.157Z" style="fill:rgb(235,235,235);stroke:black;stroke-width:12.95px;"/>
+            <path d="M486.845,239.157L706.709,239.157L621.218,209.62L706.709,239.157L621.218,268.694L706.709,239.157L486.845,239.157Z" style="fill:rgb(235,235,235);stroke:white;stroke-width:12.95px;"/>
         </g>
         <g transform="matrix(1.65438,0,0,1.89314,5.88187,-4.62648)">
-            <path d="M3.353,63.416L47.406,63.416" style="fill:none;stroke:black;stroke-width:6px;"/>
+            <path d="M3.353,63.416L47.406,63.416" style="fill:none;stroke:white;stroke-width:6px;"/>
         </g>
     </g>
 </svg>

@@ -94,7 +94,7 @@ a {
 }
 
 .paragraph {
-  margin-bottom: 2rem;
+  margin-bottom: 1.7rem;
 }
 
 .paragraph-big-space {
@@ -237,7 +237,7 @@ a {
 
 .text {
   font-size: 2rem;
-  /* line-height: 3.8rem; */
+   line-height: 2.8rem;
 }
 
 .text-small {
