@@ -62,6 +62,7 @@
 .link-button {
   display: flex;
   justify-content: center;
+  align-items: end;
   
   width: 100%;
   padding-bottom: 3rem;
@@ -73,8 +74,9 @@
   font-size: 2.6rem;
   text-decoration-line: underline;
   
-  color: var(--fs-color-font-light);
   background: var(--fs-color-font-primary);
+  color: var(--fs-color-font-light);
+  stroke: var(--fs-color-font-light);
 }
 
 @media (min-width: 768px) {
@@ -87,13 +89,16 @@
 .link-button:hover {
   background: var(--fs-color-secondary);
   color: var(--fs-color-font-dark);
+  stroke: var(--fs-color-font-dark);
 }
 
 .link-button-icon {
   margin-right: 2rem;
-  height: 3.5rem;
-  fill: red;
+  margin-bottom: 0.15rem;
+  height: 2.6rem;
+  /* height: 3.5rem; */
 }
+
 
 /* Link Mail Address */
 .link-mail {
