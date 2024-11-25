@@ -1,7 +1,7 @@
 /* layout main */
 .layout-content {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   padding-top: 6rem;
   padding-bottom: 6rem;
 
@@ -11,8 +11,8 @@
 
 @media (min-width: 768px) {
   .layout-content {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 }
 
